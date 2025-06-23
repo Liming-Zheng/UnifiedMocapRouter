@@ -1,0 +1,1 @@
+../build/mocap-router optitrack ros2 -f 100 -c ned -r far -s 888 -n far

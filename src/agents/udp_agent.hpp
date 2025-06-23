@@ -117,6 +117,12 @@ public:
 
         boost::system::error_code err;
         auto sent = this->_socket.send_to(buffer(buf, Ni+Np+Nd), this->_remote_endpoint, 0, err);
+
+
+        // std::cout << "Sending to " << this->_remote_endpoint.address().to_string()
+        //   << ":" << this->_remote_endpoint.port() << std::endl;
+
+
         if (err.failed()) {
             std::cout << "Failed with error " << err << std::endl;
             return false;

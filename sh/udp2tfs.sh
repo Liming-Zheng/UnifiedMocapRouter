@@ -1,0 +1,1 @@
+../build/mocap-router optitrack udp -f 100 -c ned -r far -s 666 -n far -i 192.168.3.13 -p 14666

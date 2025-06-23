@@ -1,0 +1,1 @@
+../build/mocap-router optitrack log -f 100 -c ned -r far -s 888 -n far -o ./new_rubber_3.csv
